@@ -60,9 +60,19 @@ export const supportCategories: SupportCategory[] = [
 		slug: 'payment-related',
 		title: 'Payment Related',
 		articles: [
+			{ id: 'payment-modes', title: 'What are the modes of payment?', body: 'We accept UPI, credit/debit cards, net banking, digital wallets, and cash on delivery (where available).' },
+			{ id: 'change-payment-mode', title: 'How do I change the mode of payment?', body: 'You can change your payment method during checkout before confirming your order. Once an order is placed, the payment method cannot be changed.' },
+			{ id: 'safe-debit-credit-card', title: 'Is it safe to use my debit/credit card to shop on Supr?', body: 'Yes, absolutely. We use industry-standard encryption and secure payment gateways. Your card details are never stored on our servers.' },
+			{ id: 'delete-saved-card', title: 'How can I delete my saved card details?', body: 'You can delete saved cards from the payment methods section in your account settings. Simply select the card and choose delete.' },
+			{ id: 'accept-sodexo-tickets', title: 'Do you accept Sodexo, ticket restaurant etc.?', body: 'Currently, we do not accept meal vouchers like Sodexo or ticket restaurant. We accept standard payment methods like cards, UPI, and wallets.' },
+			{ id: 'cod-blocked', title: 'Why is my COD blocked?', body: 'COD may be blocked due to multiple order cancellations, failed deliveries, or if you exceed the COD limit. Contact support to resolve this.' },
+			{ id: 'cod-limit', title: 'What is the limit to place a COD order?', body: 'Cash on Delivery is available up to ₹2000 per order. For higher amounts, please use online payment methods.' },
+			{ id: 'small-cart-fees', title: 'What are the small cart fees?', body: 'Small cart fees are charged on orders below the minimum cart value to cover operational costs. The fee varies by location.' },
+			{ id: 'delivery-fee-each-order', title: 'Is there a delivery fee for each order?', body: 'Delivery fees may apply based on your order value and location. Super Saver members get free delivery on eligible orders.' },
+			{ id: 'surge-fee', title: 'Why is there a surge fee?', body: 'Surge fees are applied during peak hours or high-demand periods to ensure faster delivery. The fee helps manage delivery capacity.' },
+			{ id: 'charge-for-bag', title: 'Do you charge for the Bag?', body: 'We may charge a nominal fee for bags as per local regulations. You can opt for bagless delivery to avoid this charge.' },
 			{ id: 'refunds', title: 'Refund timelines', body: 'Refunds are initiated instantly and may take 3-5 business days to reflect depending on your bank.' },
 			{ id: 'payment-failed', title: 'My payment failed but money was deducted', body: 'If your payment failed but money was deducted, the amount will be automatically refunded within 3-5 business days. Contact support if it takes longer.' },
-			{ id: 'payment-methods', title: 'What payment methods do you accept?', body: 'We accept UPI, credit/debit cards, net banking, wallets, and cash on delivery (where available).' },
 			{ id: 'payment-security', title: 'Is my payment information secure?', body: 'Yes, all payments are processed through secure, encrypted channels. We do not store your complete payment information.' },
 		],
 	},
@@ -70,6 +80,11 @@ export const supportCategories: SupportCategory[] = [
 		slug: 'feedback-and-suggestions',
 		title: 'Feedback & Suggestions',
 		articles: [
+			{ id: 'rider-safety-initiative', title: 'Tell me a little about your rider safety initiative', body: 'We prioritize rider safety with comprehensive insurance coverage, safety training, protective gear, and 24/7 support for all our delivery partners.' },
+			{ id: 'rider-feedback-general', title: 'Rider feedback in general', body: 'You can provide feedback about your delivery experience through the order rating system or contact support with specific comments about our delivery partners.' },
+			{ id: 'any-feedback-review', title: 'Any feedback / review', body: 'We value your feedback! You can share reviews and suggestions through the app, email, or social media. Your input helps us improve our service.' },
+			{ id: 'out-of-stock', title: 'Out of stock', body: 'If an item is out of stock, we\'ll notify you and offer suitable alternatives. You can choose to accept substitutes or get a refund for unavailable items.' },
+			{ id: 'packaging-feedback', title: 'Packaging feedback', body: 'We continuously improve our packaging based on customer feedback. Share your packaging experience to help us serve you better while being environmentally conscious.' },
 			{ id: 'share-feedback', title: 'How can I share feedback?', body: 'You can share feedback using the Contact Support option in the app.' },
 		],
 	},
@@ -86,8 +101,34 @@ export const supportCategories: SupportCategory[] = [
 			{ id: 'missing-item', title: 'Missing item in order', body: 'If an item is missing, raise a ticket within 24 hours for a quick resolution.' },
 		],
 	},
-	{ slug: 'gift-card', title: 'Gift Card', articles: [ { id: 'redeem', title: 'How to redeem gift card', body: 'Apply your gift card code at checkout to redeem.' } ] },
-	{ slug: 'no-cost-emi', title: 'No-Cost EMI', articles: [ { id: 'emi', title: 'Is no-cost EMI available?', body: 'No-cost EMI is available on select high-value orders with supported cards.' } ] },
+	{ 
+		slug: 'gift-card', 
+		title: 'Gift Card', 
+		articles: [ 
+			{ id: 'add-gift-card-supr-cash', title: 'What is Add Gift card on Supr Cash?', body: 'You can add gift cards to your Supr Cash wallet for easy payments. The gift card amount will be credited to your wallet balance.' },
+			{ id: 'add-gift-card', title: 'How do I add my Gift Card?', body: 'Go to your wallet section, select "Add Gift Card", enter the gift card code and PIN, then click add to credit the amount to your Supr Cash.' },
+			{ id: 'buy-gift-card', title: 'Where can I buy a Gift Card?', body: 'You can purchase Supr gift cards from select retail stores, online platforms, or through our app during special promotions.' },
+			{ id: 'fees-redeeming-gift-card', title: 'Are there any fees associated with redeeming Gift Cards?', body: 'No, there are no additional fees for redeeming gift cards. The full value will be added to your Supr Cash wallet.' },
+			{ id: 'gift-card-not-working', title: 'What should I do if my Gift Card is not working?', body: 'Check if the code is entered correctly and the card is not expired. If issues persist, contact support with your gift card details.' },
+			{ id: 'multiple-gift-cards', title: 'Can I use multiple Gift Cards for a single purchase?', body: 'Yes, you can add multiple gift cards to your Supr Cash wallet and use the combined balance for purchases.' },
+			{ id: 'gift-card-expiry', title: 'Is there an expiry date for the Gift Card?', body: 'Yes, gift cards have expiry dates mentioned on them. Make sure to use them before the expiry date to avoid losing the value.' },
+			{ id: 'receive-gift-card', title: 'How will I receive the Gift Card that I purchased?', body: 'Digital gift cards will be sent to your registered email or phone number. Physical cards will be delivered to your address if applicable.' },
+			{ id: 'redeem', title: 'How to redeem gift card', body: 'Apply your gift card code at checkout to redeem.' } 
+		] 
+	},
+	{ 
+		slug: 'no-cost-emi', 
+		title: 'No-Cost EMI', 
+		articles: [ 
+			{ id: 'what-is-emi', title: 'What is EMI?', body: 'EMI (Equated Monthly Installment) allows you to pay for your purchases in easy monthly installments instead of paying the full amount upfront.' },
+			{ id: 'what-is-no-cost-emi', title: 'What is No-Cost EMI?', body: 'No-Cost EMI lets you pay in installments without any additional interest charges. The total amount remains the same as the original price.' },
+			{ id: 'know-no-cost-emi-offer', title: 'How do I know if a product has a No-Cost EMI offer?', body: 'Products eligible for No-Cost EMI will display the EMI option during checkout. Look for "No-Cost EMI available" on product pages.' },
+			{ id: 'processing-fees', title: 'Will I be charged any processing fees?', body: 'Processing fees may apply depending on your bank and card type. These fees, if any, will be clearly displayed before you confirm your EMI.' },
+			{ id: 'cancel-return-no-cost-emi', title: 'What happens if I cancel or return a product purchased with No-Cost EMI?', body: 'If you cancel or return, the refund process will be handled according to your bank\'s EMI cancellation policy. Contact support for assistance.' },
+			{ id: 'terms-conditions', title: 'What are some other Terms and Conditions I should be aware of?', body: 'EMI terms vary by bank and card type. Check your bank\'s EMI terms, minimum order values, and eligible card types before proceeding.' },
+			{ id: 'emi', title: 'Is no-cost EMI available?', body: 'No-cost EMI is available on select high-value orders with supported cards.' } 
+		] 
+	},
 	{ 
 		slug: 'wallet-related', 
 		title: 'Wallet Related', 
@@ -129,6 +170,8 @@ export const supportCategories: SupportCategory[] = [
 			{ id: 'supr-pass-converted-daily', title: 'I am a Supr Pass user and have been converted to Supr Daily user. Does that impact the benefits of my Supr Pass Membership in any way?', body: 'Your existing benefits are preserved and enhanced. Supr Daily offers all previous Supr Pass benefits plus additional features like flexible scheduling.' },
 			{ id: 'supr-daily-membership-duration', title: 'How long does my Supr Daily membership last?', body: 'Supr Daily memberships are available in monthly, quarterly, and annual plans. You can check your membership duration in your account settings.' },
 			{ id: 'supr-daily-membership-expires', title: 'What happens when my Supr Daily membership expires?', body: 'When your membership expires, you\'ll lose subscription benefits but can continue using Supr normally. You can renew anytime to restore benefits.' },
+			{ id: 'special-prices-products', title: 'What products will I get the special prices on?', body: 'Supr Daily members get special prices on daily essentials like milk, bread, eggs, and other frequently ordered items. Check the app for current offers.' },
+			{ id: 'free-deliveries', title: 'How many free deliveries do I get?', body: 'Supr Daily members get unlimited free deliveries on all orders above the minimum cart value throughout their subscription period.' },
 			{ id: 'about-daily', title: 'About Supr Daily', body: 'Subscribe to daily essentials with flexible schedules.' } 
 		] 
 	},

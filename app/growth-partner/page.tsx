@@ -13,7 +13,7 @@ export default function GrowthPartnerPage() {
       <IntroSection />
       <ProcessSection />
       <BenefitsSection />
-      <TestimonialsSection />
+      <TestimonialsSection  />
       <FAQSection />
     </>
   );
