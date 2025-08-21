@@ -64,7 +64,7 @@ const AccountSidebar: React.FC = () => {
   const pathname = usePathname();
 
   return (
-    <aside className="w-full lg:w-2/5 border-r lg:border-r border-b lg:border-b-0 p-4 lg:p-6">
+    <aside className="w-full lg:w-2/5 border-r border-gray-200 lg:border-r border-b border-gray-200 lg:border-b-0 p-4 lg:p-6">
       {/* User Profile */}
       <div className="flex items-center mb-6">
         <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mr-3">
@@ -127,7 +127,7 @@ const AccountSidebar: React.FC = () => {
       {/* Zepto Cash & Gift Card */}
       <div className="mt-2.5 rounded-xl p-3 bg-[#F3F5F7]">
         <a href="/account/wallet">
-          <div className="mb-5 flex flex-row items-center border-b border-dashed border-[#98A2B3] pb-3">
+          <div className="mb-5 flex flex-row items-center border-b border-dashed border-gray-300 pb-3">
             <Image 
               alt="refund-timeline" 
               src="https://www.zeptonow.com/images/wallet.svg" 
@@ -136,7 +136,7 @@ const AccountSidebar: React.FC = () => {
               className="relative overflow-hidden object-contain"
             />
             <h5 className="block font-subtitle tracking-wider w-full pl-2 text-base font-bold text-black">
-              Zepto Cash & Gift Card
+              Supr Cash & Gift Card
             </h5>
             <Image 
               alt="right-arrow-icon" 
@@ -194,7 +194,7 @@ const AccountSidebar: React.FC = () => {
           const active = pathname === item.href || (item.href === "/account/orders" && pathname === "/account");
           
           return (
-            <div key={item.href} className={`flex flex-row items-center border-b border-gray-200 hover:bg-gray-50 transition-colors duration-150 ${active ? 'bg-slate-200' : ''}`}>
+            <div key={item.href} className={`flex flex-row items-center border-b border-gray-100 hover:bg-gray-50 transition-colors duration-150 ${active ? 'bg-gray-50' : ''}`}>
               <div className="flex items-center p-4">
                 {item.icon}
               </div>
@@ -212,13 +212,13 @@ const AccountSidebar: React.FC = () => {
       </div>
 
       {/* Log Out */}
-      <div className="mt-8 pt-4 border-t border-gray-200">
-        <button className="text-gray-600 font-medium">Log Out</button>
+      <div className="mt-8 pt-4 border-t border-gray-100">
+        <button className="text-gray-600 font-medium hover:text-gray-800 transition-colors">Log Out</button>
       </div>
 
-      {/* Zepto Logo */}
+      {/* Supr Logo */}
       <div className="mt-8 text-center">
-        <div className="text-2xl font-bold text-gray-400">zepto</div>
+        <div className="text-2xl font-bold text-gray-400">supr</div>
       </div>
     </aside>
   );
