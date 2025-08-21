@@ -16,7 +16,7 @@ const Header = () => {
       />
     <header className="relative pt-4 pb-2">
       {/* Top gradient that blends into the page (exact match) */}
-      <div className="pointer-events-none absolute inset-x-0 -top-6 h-28 bg-gradient-to-b from-[rgba(161,99,255,0.12)] via-[rgba(161,99,255,0.04)] to-transparent"></div>
+      <div className="pointer-events-none absolute inset-x-0 -top-6 h-28 bg-gradient-to-b from-[rgba(161,99,255,0.5)] via-[rgba(161,99,255,0.08)] to-transparent"></div>
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}
