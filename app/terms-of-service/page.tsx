@@ -16,9 +16,9 @@ export default function TermsOfService() {
             </p>
 
             <p className="mb-6">
-              Welcome to Zepto! These Terms of Service (&quot;Terms&quot;) govern your access to and use of the Zepto platform, 
+              Welcome to Supr! These Terms of Service (&quot;Terms&quot;) govern your access to and use of the Supr platform, 
               including our website (www.zeptonow.com) and mobile application (&quot;Platform&quot;), operated by Zepto Marketplace 
-              Private Limited (&quot;Zepto&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;).
+              Private Limited (&quot;Supr&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;).
             </p>
 
             <p className="mb-8">
@@ -30,7 +30,7 @@ export default function TermsOfService() {
             <p className="mb-6">
               By creating an account, placing an order, or otherwise using our services, you acknowledge that you have read, 
               understood, and agree to be bound by these Terms and our Privacy Policy. These Terms constitute a legally 
-              binding agreement between you and Zepto Marketplace Private Limited.
+              binding agreement between you and Supr Marketplace Private Limited.
             </p>
 
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">2. Eligibility</h2>
@@ -115,7 +115,7 @@ export default function TermsOfService() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">9. Intellectual Property</h2>
             <p className="mb-6">
               All content on our Platform, including text, graphics, logos, images, and software, is the property of 
-              Zepto Marketplace Private Limited or our licensors and is protected by copyright and other intellectual 
+              Supr Marketplace Private Limited or our licensors and is protected by copyright and other intellectual 
               property laws. You may not reproduce, distribute, or create derivative works from our content without 
               our express written permission.
             </p>
@@ -129,7 +129,7 @@ export default function TermsOfService() {
 
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">11. Limitation of Liability</h2>
             <p className="mb-6">
-              To the maximum extent permitted by law, Zepto Marketplace Private Limited shall not be liable for any 
+              To the maximum extent permitted by law, Supr Marketplace Private Limited shall not be liable for any 
               indirect, incidental, special, or consequential damages arising from your use of our Platform or services.
             </p>
 
@@ -156,7 +156,7 @@ export default function TermsOfService() {
             </p>
             <div className="bg-gray-50 p-4 rounded-lg mb-6">
               <p className="text-sm">
-                Zepto Marketplace Private Limited<br />
+                Supr Marketplace Private Limited<br />
                 First Floor, 773, Sarjapur Main Road<br />
                 Kaikondarahalli, Bengaluru<br />
                 Karnataka - 560103<br />
@@ -166,7 +166,7 @@ export default function TermsOfService() {
 
             <div className="mt-12 pt-8 border-t border-gray-200">
               <p className="text-sm text-gray-600">
-                © 2025 Zepto Marketplace Private Limited, All rights reserved.
+                © 2025 Supr Marketplace Private Limited, All rights reserved.
               </p>
             </div>
           </div>

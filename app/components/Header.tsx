@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import LocationModal from './LocationModal';
 
 const Header = () => {
@@ -14,7 +15,7 @@ const Header = () => {
         onClose={() => setIsLocationModalOpen(false)} 
       />
     <header className="relative pt-4 pb-2">
-      {/* Top gradient that blends into the page (subtle like Zepto) */}
+      {/* Top gradient that blends into the page (subtle like Supr) */}
       <div
         className="pointer-events-none absolute inset-x-0 -top-6 h-28 bg-gradient-to-b from-[rgba(161,99,255,0.18)] via-[rgba(161,99,255,0.06)] to-white"
       />
@@ -22,7 +23,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-bold text-purple-600 hover:text-purple-700 transition-colors duration-200">
+            <Link href="/" className="text-2xl font-black text-purple-600 hover:text-purple-700 transition-colors duration-200">
               Supr
             </Link>
           </div>
@@ -32,7 +33,7 @@ const Header = () => {
             onClick={() => setIsLocationModalOpen(true)}
             className="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-full hover:bg-gray-100 transition-colors duration-200"
           >
-            <span className="text-sm font-medium text-gray-800">Gangyep, Sikkim</span>
+            <span className="text-sm font-bold text-gray-800">Gangyep, Sikkim</span>
             <svg className="w-4 h-4 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
             </svg>
@@ -56,17 +57,25 @@ const Header = () => {
           <div className="flex items-center gap-2 md:gap-6">
             {/* Mobile Profile Icon */}
             <Link href="/account" className="md:hidden p-2 text-gray-700 hover:text-purple-600 transition-colors duration-200">
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden>
-                <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-              </svg>
+              <Image 
+                src="/profile-circle-svgrepo-com (1).svg" 
+                alt="Profile" 
+                width={24} 
+                height={24}
+                className="w-6 h-6"
+              />
             </Link>
 
             {/* Desktop Profile */}
             <Link href="/account" className="hidden md:flex flex-col items-center text-gray-700 hover:text-purple-600 transition-colors duration-200">
-              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden>
-                <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-              </svg>
-              <span className="text-xs mt-1">Profile</span>
+              <Image 
+                src="/profile-circle-svgrepo-com (1).svg" 
+                alt="Profile" 
+                width={28} 
+                height={28}
+                className="w-7 h-7 mb-1"
+              />
+              <span className="text-xs">Profile</span>
             </Link>
 
             {/* Mobile Cart Icon */}

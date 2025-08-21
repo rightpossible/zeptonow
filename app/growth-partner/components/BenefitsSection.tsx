@@ -45,7 +45,7 @@ const BenefitsSection = () => {
       <div className="max-w-5xl">
         <div className="pb-8">
           <h4 className="text-2xl font-bold text-black">What&apos;s in it for you?</h4>
-          <p className="text-gray-500 md:w-3/4">Benefits of becoming a zepto growth partner</p>
+          <p className="text-gray-500 md:w-3/4">Benefits of becoming a supr growth partner</p>
         </div>
         
         <div className="rounded-lg bg-white flex flex-wrap md:flex-row flex-col">

@@ -12,7 +12,7 @@ const FAQSection = () => {
     },
     {
       question: "What will be my core responsibilities?",
-      answer: "As a zepto growth partner, you'll be responsible for creating processes and ensuring a smooth flow of inventory and outbound processes including picking, packing, billing, and a seamless handover to our delivery partners."
+      answer: "As a supr growth partner, you'll be responsible for creating processes and ensuring a smooth flow of inventory and outbound processes including picking, packing, billing, and a seamless handover to our delivery partners."
     },
     {
       question: "Do I deliver the orders to customers?",
