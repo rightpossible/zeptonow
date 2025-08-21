@@ -89,7 +89,7 @@ const Categories = () => {
               <a
                 key={index}
                 href="#"
-                className="block p-2 text-xs text-gray-700 hover:text-purple-600 transition-colors duration-200"
+                className="block p-2 text-xs font-bold text-black hover:text-purple-600 transition-colors duration-200"
               >
                 {category}
               </a>

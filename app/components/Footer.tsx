@@ -3,8 +3,9 @@ import React from 'react';
 const Footer = () => {
   const footerLinks = {
     company: [
-      { name: "Home", href: "#" },
+      { name: "Home", href: "/" },
       { name: "Delivery Areas", href: "#" },
+      { name: "Delivery Partners", href: "/s/delivery-partners" },
       { name: "Careers", href: "#" },
       { name: "Customer Support", href: "#" },
       { name: "Press", href: "#" },
@@ -16,7 +17,7 @@ const Footer = () => {
       { name: "Responsible Disclosure Policy", href: "#" },
       { name: "Sell on Zepto", href: "#" },
       { name: "Deliver with Zepto", href: "#" },
-      { name: "Franchise with Zepto", href: "#" }
+      { name: "Franchise with Zepto", href: "/growth-partner" }
     ]
   };
 
@@ -69,13 +70,13 @@ const Footer = () => {
 
           {/* Company Links */}
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 mb-4">Company</h3>
+            <h3 className="text-sm font-bold text-black mb-4">Company</h3>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-sm text-gray-600 hover:text-purple-600 transition-colors duration-200"
+                    className="text-sm font-bold text-gray-900 hover:text-purple-600 transition-colors duration-200"
                   >
                     {link.name}
                   </a>
@@ -86,13 +87,13 @@ const Footer = () => {
 
           {/* Legal Links */}
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 mb-4">Legal</h3>
+            <h3 className="text-sm font-bold text-black mb-4">Legal</h3>
             <ul className="space-y-3">
               {footerLinks.legal.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-sm text-gray-600 hover:text-purple-600 transition-colors duration-200"
+                    className="text-sm font-bold text-black hover:text-purple-600 transition-colors duration-200"
                   >
                     {link.name}
                   </a>
@@ -103,7 +104,7 @@ const Footer = () => {
 
           {/* Download App */}
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 mb-4">Download App</h3>
+            <h3 className="text-sm font-bold text-black mb-4">Download App</h3>
             <div className="space-y-3">
               {/* Google Play Store */}
               <a

@@ -3,33 +3,29 @@ import { supportCategories } from './data';
 
 export default function SupportPage() {
   return (
-    <>
-      <div className="flex items-center mb-4">
-        <Link href="/" className="mr-3 hover:bg-gray-100 p-1 rounded transition-colors duration-200">
-          <svg className="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
-        </Link>
-        <h1 className="text-lg font-semibold text-gray-900">FAQs</h1>
-      </div>
-
-      <div className="bg-white border rounded-lg overflow-hidden">
+    <div className="mx-4 mt-4 sm:mt-6">
+      <h4 className="font-heading text-lg tracking-wide line-clamp-2 mb-1 w-2/3 !text-xl !font-bold sm:mb-4 text-black">
+        FAQs
+      </h4>
+      
+      <ul>
         {supportCategories.map((cat, idx) => (
-          <Link
-            key={cat.slug}
-            href={`/account/support/${cat.slug}`}
-            className={`flex items-center justify-between px-4 py-4 hover:bg-gray-50 transition-colors duration-150 ${
-              idx !== supportCategories.length - 1 ? 'border-b' : ''
-            }`}
-          >
-            <span className="text-sm text-gray-900">{cat.title}</span>
-            <svg className="w-4 h-4 text-pink-500" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 111.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
-            </svg>
-          </Link>
+          <li key={cat.slug}>
+            <Link
+              href={`/account/support/${cat.slug}`}
+              className="list-item-arrow flex !w-full cursor-pointer items-center justify-between py-4 after:ml-[10px] after:inline-block after:h-7"
+            >
+              <h5 className="block font-subtitle text-lg tracking-wider !font-medium text-black">
+                {cat.title}
+              </h5>
+            </Link>
+            {idx !== supportCategories.length - 1 && (
+              <div className="w-full rounded-full border-[0.5px] border-gray-200"></div>
+            )}
+          </li>
         ))}
-      </div>
-    </>
+      </ul>
+    </div>
   );
 }
 
