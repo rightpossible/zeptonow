@@ -15,7 +15,7 @@ const Footer = () => {
       { name: "Privacy Policy", href: "/privacy-policy" },
       { name: "Terms of Use", href: "/terms-of-service" },
       { name: "Responsible Disclosure Policy", href: "#" },
-      { name: "Sell on Zepto", href: "#" },
+      { name: "Sell on Zepto", href: "/brands" },
       { name: "Deliver with Zepto", href: "/s/delivery-partners" },
       { name: "Franchise with Zepto", href: "/growth-partner" }
     ]
