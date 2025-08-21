@@ -79,7 +79,7 @@ const AccountSidebar: React.FC = () => {
       </div>
 
       {/* Daily Card */}
-      <div className="bg-green-700 rounded-lg p-4 mb-8 relative">
+      <div className="bg-green-950 rounded-2xl p-4  mb-8 relative">
         <div className="flex items-start justify-between">
           <div className="flex-1">
             <Image 
@@ -89,10 +89,9 @@ const AccountSidebar: React.FC = () => {
               height={15} 
               className="mb-2"
             />
-            <p className="text-white text-sm mb-4">
-              <span className="text-white">You would potentially save </span>
-              <span className="font-bold text-yellow-200">₹500</span>
-              <span className="text-white"> per month with Supr Daily</span>
+            <p className="text-white text-sm mb-4 leading-relaxed">
+              You would potentially save <span className="font-bold text-yellow-200">₹500</span> per<br />
+              month with Supr Daily
             </p>
           </div>
           <Image 
