@@ -48,7 +48,7 @@ const MeetDriversSection = () => {
                   {driver.name}
                 </h3>
                 <p className="text-gray-600 leading-relaxed italic">
-                  "{driver.testimonial}"
+                  &quot;{driver.testimonial}&quot;
                 </p>
               </div>
             </div>
