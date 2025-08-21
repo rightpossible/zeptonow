@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from 'react';
-import Image from 'next/image';
 
 const HeroSection = () => {
   const [showForm, setShowForm] = useState(false);
@@ -10,11 +9,9 @@ const HeroSection = () => {
       <div className="flex justify-center max-w-5xl md:flex-row flex-col">
         {/* Left Side - Content */}
         <div className="pr-6 md:py-10 py-6 md:w-2/5 flex flex-col gap-2.5">
-          <Image 
+          <img 
             alt="Growth Partner icon" 
             src="https://franchise.zepto.co.in/assets/icons/growth-partners-logo.svg" 
-            width={192}
-            height={60}
             className="w-48"
           />
           <p className="text-gray-500 font-medium md:max-w-64 md:pb-6">
@@ -32,31 +29,31 @@ const HeroSection = () => {
         <div className="md:w-3/5 flex gap-2 pt-4">
           <div className="flex flex-col gap-2 justify-center">
             <div>
-              <Image alt="person-1" src="https://franchise.zepto.co.in/assets/icons/person-1.webp" width={120} height={160} />
+              <img alt="person-1" src="https://franchise.zepto.co.in/assets/icons/person-1.webp" />
             </div>
             <div>
-              <Image alt="person-2" src="https://franchise.zepto.co.in/assets/icons/person-2.webp" width={120} height={160} />
+              <img alt="person-2" src="https://franchise.zepto.co.in/assets/icons/person-2.webp" />
             </div>
           </div>
           
           <div className="flex flex-col gap-2">
             <div>
-              <Image alt="person-3" src="https://franchise.zepto.co.in/assets/icons/person-3.webp" width={120} height={160} />
+              <img alt="person-3" src="https://franchise.zepto.co.in/assets/icons/person-3.webp" />
             </div>
             <div>
-              <Image alt="person-4" src="https://franchise.zepto.co.in/assets/icons/person-4.webp" width={120} height={160} />
+              <img alt="person-4" src="https://franchise.zepto.co.in/assets/icons/person-4.webp" />
             </div>
             <div>
-              <Image alt="person-5" src="https://franchise.zepto.co.in/assets/icons/person-5.webp" width={120} height={160} />
+              <img alt="person-5" src="https://franchise.zepto.co.in/assets/icons/person-5.webp" />
             </div>
           </div>
           
           <div className="flex flex-col gap-2 justify-center">
             <div>
-              <Image alt="person-6" src="https://franchise.zepto.co.in/assets/icons/person-6.webp" width={120} height={160} />
+              <img alt="person-6" src="https://franchise.zepto.co.in/assets/icons/person-6.webp" />
             </div>
             <div>
-              <Image alt="person-7" src="https://franchise.zepto.co.in/assets/icons/person-7.webp" width={120} height={160} />
+              <img alt="person-7" src="https://franchise.zepto.co.in/assets/icons/person-7.webp" />
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ const Footer = () => {
       { name: "Terms of Use", href: "/terms-of-service" },
       { name: "Responsible Disclosure Policy", href: "#" },
       { name: "Sell on Zepto", href: "#" },
-      { name: "Deliver with Zepto", href: "#" },
+      { name: "Deliver with Zepto", href: "/s/delivery-partners" },
       { name: "Franchise with Zepto", href: "/growth-partner" }
     ]
   };
