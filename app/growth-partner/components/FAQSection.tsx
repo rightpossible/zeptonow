@@ -8,7 +8,7 @@ const FAQSection = () => {
   const faqs = [
     {
       question: "How will my store get orders?",
-      answer: "All the demand is driven by the Zepto app. Orders Placed within your store's catchment automatically flow to your dashboard. You don't need any local marketing to generate orders."
+      answer: "All the demand is driven by the Supr app. Orders Placed within your store's catchment automatically flow to your dashboard. You don't need any local marketing to generate orders."
     },
     {
       question: "What will be my core responsibilities?",
@@ -16,7 +16,7 @@ const FAQSection = () => {
     },
     {
       question: "Do I deliver the orders to customers?",
-      answer: "No, your responsibility will end at handing over orders to delivery partners. Zepto's delivery fleet will handle the last mile deliveries to customers."
+      answer: "No, your responsibility will end at handing over orders to delivery partners. Supr's delivery fleet will handle the last mile deliveries to customers."
     },
     {
       question: "How soon can I break even in this business?",

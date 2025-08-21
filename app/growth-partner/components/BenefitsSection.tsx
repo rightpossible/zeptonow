@@ -13,7 +13,7 @@ const BenefitsSection = () => {
     {
       image: "https://franchise.zepto.co.in/assets/icons/leverage.svg",
       title: "Leverage our marketing efforts & customer base", 
-      description: "Use Zepto's marketing power and extensive customer base to boost your store's visibility.",
+      description: "Use Supr's marketing power and extensive customer base to boost your store's visibility.",
       width: "md:w-1/3",
       borderClass: "border-b md:border-r"
     },

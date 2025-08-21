@@ -48,10 +48,10 @@ const BrandFooter = () => {
               </div>
             </div>
 
-            {/* Download Zepto Section */}
+            {/* Download Supr Section */}
             <div className="flex flex-col md:flex-row gap-20 lg:gap-10">
               <div className="flex flex-col gap-7">
-                <p className="text-sm">Download Zepto</p>
+                <p className="text-sm">Download Supr</p>
                 <div className="flex flex-col gap-2">
                   <button className="flex items-center gap-2 text-white bg-white/10 rounded-[65px] text-[14px] px-4 py-2 hover:bg-white/20 transition-colors">
                     <img 
@@ -102,7 +102,7 @@ const BrandFooter = () => {
 
         {/* Bottom Section */}
         <div className="font-[400] text-sm text-white/50 mt-20 md:mt-28 lg:px-12 py-8 border-t-[1px] border-t-white/50 flex flex-col lg:flex-row justify-between gap-8">
-          <span className="text-xs">© Zepto Marketplace Private Limited</span>
+          <span className="text-xs">© Supr Marketplace Private Limited</span>
           
           <div className="flex flex-col lg:flex-row gap-4 lg:gap-8">
             <a rel="noopener noreferrer" href="https://www.zeptonow.com/privacy-policy" target="_blank">

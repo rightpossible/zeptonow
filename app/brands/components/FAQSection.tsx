@@ -7,16 +7,16 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "What are the documents required to start selling on Zepto?",
+      question: "What are the documents required to start selling on Supr?",
       answer: "You will need your PAN Card, GSTIN Certificate, Cancelled Cheque, Authorized Signatory Signature Copy & Original Trademark Certificate or Authorisation Letter/NOC on brand owner's letterhead."
     },
     {
-      question: "What are the prerequisites for listing & cataloging your products to get onboarded with Zepto?",
-      answer: "You will need to provide your brand tag details, accurate product sizing details and article images for cataloging meeting up-to Zepto specifications & guidelines to uphold the shopping experience on Zepto"
+      question: "What are the prerequisites for listing & cataloging your products to get onboarded with Supr?",
+      answer: "You will need to provide your brand tag details, accurate product sizing details and article images for cataloging meeting up-to Supr specifications & guidelines to uphold the shopping experience on Supr"
     },
     {
-      question: "How much time does it take to get onboarded on Zepto?",
-      answer: "To get onboarded on Zepto, your brand should have a sizeable catalog width & quality product with a unique value proposition. If your brand qualifies Zepto's defined selection criteria, you can be onboarded within 15 business days. This might be longer during major sale events extending up-to 45 days."
+      question: "How much time does it take to get onboarded on Supr?",
+      answer: "To get onboarded on Supr, your brand should have a sizeable catalog width & quality product with a unique value proposition. If your brand qualifies Supr's defined selection criteria, you can be onboarded within 15 business days. This might be longer during major sale events extending up-to 45 days."
     }
   ];
 

@@ -1,12 +1,13 @@
 "use client";
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const BrandHeader = () => {
-  const [activeNav, setActiveNav] = useState('Growth with Zepto');
+  const [activeNav, setActiveNav] = useState('Growth with Supr');
 
   const navItems = [
-    'Growth with Zepto',
+    'Growth with Supr',
     'Value Props', 
     'Categories',
     'FAQ'
@@ -51,20 +52,24 @@ const BrandHeader = () => {
 
         {/* Action Buttons */}
         <div className="flex gap-3">
-          <button className="h-12 3xl:h-14 4xl:h-16 text-[12px] md:text-[16px] 3xl:text-[22px] border border-primary-600 rounded-md px-4 py-2 text-primary-600 hover:bg-primary-50 transition-colors duration-200">
-            Log In
-          </button>
-          <button 
-            className="h-12 3xl:h-14 4xl:h-16 text-[12px] md:text-[16px] 3xl:text-[22px] rounded-md px-4 py-2 text-white border border-primary-600 transition-colors duration-200 flex items-center gap-2"
-            style={{background: 'linear-gradient(to right, #3C006B, #8C1D75)'}}
-          >
-            Register Now
-            <img 
-              alt="register now" 
-              src="https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/sell-on-zepto.svg" 
-              className="!h-4 !w-4 !mx-2"
-            />
-          </button>
+          <Link href="/brands/signin">
+            <button className="h-12 3xl:h-14 4xl:h-16 text-[12px] md:text-[16px] 3xl:text-[22px] border border-primary-600 rounded-md px-4 py-2 text-primary-600 hover:bg-primary-50 transition-colors duration-200">
+              Log In
+            </button>
+          </Link>
+          <Link href="/brands/signup">
+            <button 
+              className="h-12 3xl:h-14 4xl:h-16 text-[12px] md:text-[16px] 3xl:text-[22px] rounded-md px-4 py-2 text-white border border-primary-600 transition-colors duration-200 flex items-center gap-2"
+              style={{background: 'linear-gradient(to right, #3C006B, #8C1D75)'}}
+            >
+              Register Now
+              <img 
+                alt="register now" 
+                src="https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/sell-on-zepto.svg" 
+                className="!h-4 !w-4 !mx-2"
+              />
+            </button>
+          </Link>
         </div>
 
         {/* Mobile Menu (Hidden) */}

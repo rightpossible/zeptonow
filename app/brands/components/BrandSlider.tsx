@@ -9,35 +9,35 @@ const BrandSlider = () => {
     {
       logo: "https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/rajFragrance.webp",
       alt: "logo-rajFragrance",
-      testimonial: "Zepto has helped us grow by more than 10 times in just three months. Customers love the quick delivery, and we're reaching new audiences!",
+      testimonial: "Supr has helped us grow by more than 10 times in just three months. Customers love the quick delivery, and we're reaching new audiences!",
       metric: "10x",
       metricLabel: "Growth in 3 months"
     },
     {
       logo: "https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/fixMyCurls.webp",
       alt: "logo-fixMyCurls", 
-      testimonial: "Zepto has opened doors to a new demographic of high-value customers who want quality delivered fast. We've seen a 3X jump in sales from premium customers, thanks to Zepto's reach and efficiency",
+      testimonial: "Supr has opened doors to a new demographic of high-value customers who want quality delivered fast. We've seen a 3X jump in sales from premium customers, thanks to Supr's reach and efficiency",
       metric: "3x",
       metricLabel: "Jump in Sales"
     },
     {
       logo: "https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/teakwoodLeathers.webp",
       alt: "logo-teakwoodLeathers",
-      testimonial: "Zepto's speed and reach have connected us with high-income customers who value quality and convenience. Since joining, we've seen ~ 30% spike in orders from premium buyers",
+      testimonial: "Supr's speed and reach have connected us with high-income customers who value quality and convenience. Since joining, we've seen ~ 30% spike in orders from premium buyers",
       metric: "~30%",
       metricLabel: "Spike in Orders"
     },
     {
       logo: "https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/my-fitness.webp",
       alt: "logo-my-fitness",
-      testimonial: "Zepto's seamless and efficient process for launching new product lines propelled our sales by 4x in just a few months. Their reliable service has been a crucial factor in driving our brand's success.!",
+      testimonial: "Supr's seamless and efficient process for launching new product lines propelled our sales by 4x in just a few months. Their reliable service has been a crucial factor in driving our brand's success.!",
       metric: "4x", 
       metricLabel: "New product sales"
     },
     {
       logo: "https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/new-republic.webp",
       alt: "logo-new-republic",
-      testimonial: "Joining Zepto gave our products a major boost. Our sales are up, and our customer base has expanded significantly",
+      testimonial: "Joining Supr gave our products a major boost. Our sales are up, and our customer base has expanded significantly",
       metric: "4x",
       metricLabel: "New product sales"
     }

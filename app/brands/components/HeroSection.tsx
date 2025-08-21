@@ -17,7 +17,7 @@ const HeroSection = () => {
         <h1 className="text-3xl lg:text-4xl font-bold text-gray-700 text-center lg:text-start leading-tight">
           Fuel Your Growth
           <div className="bg-gradient-to-br from-gray-900 to-[#8C1D75] bg-clip-text text-transparent">
-            with Zepto
+            with Supr
           </div>
         </h1>
 
@@ -34,7 +34,7 @@ const HeroSection = () => {
           >
             Register Now
             <img 
-              alt="sell on zepto" 
+              alt="sell on supr" 
               src="https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/sell-on-zepto.svg" 
               className="!h-2 md:!h-3 4xl:!h-4 !mx-2"
             />

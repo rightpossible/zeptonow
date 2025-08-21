@@ -45,7 +45,7 @@ const CategoryShowcase = () => {
     {name: "Sweet Cravings", icon: "https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/sweet-cravings.webp"},
     {name: "Tea, Coffee & More", icon: "https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/tea-coffee-and-more.webp"},
     {name: "Toys & Sports", icon: "https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/toys-and-sports.webp"},
-    {name: "Zepto Cafe", icon: "https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/zepto-cafe.webp"}
+    {name: "Supr Cafe", icon: "https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/zepto-cafe.webp"}
   ];
 
   const CategoryItem = ({ category }: { category: { name: string; icon: string } }) => (

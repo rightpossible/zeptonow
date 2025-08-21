@@ -47,7 +47,7 @@ const DeliveryFooter = () => {
             height={64}
           />
           <div className="flex flex-col space-y-1">
-            <h1 className="!text-base !font-semibold !text-white">Zepto Delivery Partner Jobs</h1>
+            <h1 className="!text-base !font-semibold !text-white">Supr Delivery Partner Jobs</h1>
             <span className="text-sm font-normal text-gray-400">Earn upto ₹60,000/month</span>
           </div>
         </div>

@@ -7,7 +7,7 @@ const NetworkMapSection = () => {
       <div className="lg:!w-[70%] flex flex-col gap-10 items-center lg:items-start">
         <h1 className="text-4xl lg:text-5xl font-bold text-gray-700 text-center lg:text-start">
           <span className="bg-gradient-to-br from-gray-900 to-[#8C1D75] bg-clip-text text-transparent">
-            Grow with Zepto&apos;s Nationwide Network
+            Grow with Supr&apos;s Nationwide Network
           </span>
           <br />
           Get Seen, Grow Big

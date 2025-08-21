@@ -5,17 +5,17 @@ const TestimonialsSection = () => {
     {
       name: "Mahesh",
       role: "Delivery Partner",
-      quote: "I have been working with Zepto over a year now. It has been a game changer for me as I earn up to ₹60,000 per month"
+      quote: "I have been working with Supr over a year now. It has been a game changer for me as I earn up to ₹60,000 per month"
     },
     {
       name: "Syed",
       role: "Delivery Partner", 
-      quote: "Having been a rider for Zepto since 1.5 years, I'm really happy with the consistent earnings of Zepto"
+      quote: "Having been a rider for Supr since 1.5 years, I'm really happy with the consistent earnings of Supr"
     },
     {
       name: "Nawaz",
       role: "Delivery Partner",
-      quote: "Zepto provides enough flexibility for working as I earn enough while delivering short distance orders"
+      quote: "Supr provides enough flexibility for working as I earn enough while delivering short distance orders"
     }
   ];
 

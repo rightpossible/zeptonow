@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="relative mx-auto w-32 h-32 flex items-center justify-center">
             <Image 
               src="https://cdn.zeptonow.com/app/images/unserviceable-graphic.png"
-              alt="Zepto delivery illustration"
+              alt="Supr delivery illustration"
               width={128}
               height={128}
               className="w-full h-full object-contain"

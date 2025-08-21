@@ -15,20 +15,20 @@ const FAQSection = () => {
       answer: "You have complete flexibility to work when you want. You can take days off as needed and work according to your schedule."
     },
     {
-      question: "How much can I earn as a Zepto delivery partner?",
+      question: "How much can I earn as a Supr delivery partner?",
       answer: "You can earn up to ₹60,000 per month depending on the number of deliveries you complete and daily incentives you achieve."
     },
     {
       question: "Do I need to own a bike?",
-      answer: "Yes, you need to own a two-wheeler (bike or scooter) to become a delivery partner with Zepto."
+      answer: "Yes, you need to own a two-wheeler (bike or scooter) to become a delivery partner with Supr."
     },
     {
       question: "Do I need a driver's license?",
       answer: "Yes, a valid driving license is mandatory to work as a delivery partner for safety and legal compliance."
     },
     {
-      question: "Will I be covered under any insurance while working for Zepto?",
-      answer: "Yes, Zepto provides insurance coverage of up to ₹10 lakhs for you and your family while you're working as a delivery partner."
+      question: "Will I be covered under any insurance while working for Supr?",
+      answer: "Yes, Supr provides insurance coverage of up to ₹10 lakhs for you and your family while you're working as a delivery partner."
     },
     {
       question: "What should I do if I face harassment or uncomfortable situations with customers or otherwise?",

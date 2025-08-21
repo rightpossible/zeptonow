@@ -46,7 +46,7 @@ const GrowthTabsSection = () => {
         },
         {
           title: "P2P Visibility",
-          description: "At Zepto, we give our sellers full visibility into every transaction – all from a single platform."
+          description: "At Supr, we give our sellers full visibility into every transaction – all from a single platform."
         }
       ],
       image: "https://cdn.zeptonow.com/ext-seller-prod/assets/root-shell/tr:w-0.5,h-0.5/assets/icons/growth-story-image.svg"

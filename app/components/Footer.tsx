@@ -6,18 +6,20 @@ const Footer = () => {
       { name: "Home", href: "/" },
       { name: "Delivery Areas", href: "#" },
       { name: "Delivery Partners", href: "/s/delivery-partners" },
+     
       { name: "Careers", href: "#" },
       { name: "Customer Support", href: "#" },
       { name: "Press", href: "#" },
-      { name: "Mojo - a Zepto Blog", href: "#" }
+      { name: "Mojo - a Supr Blog", href: "#" }
     ],
     legal: [
       { name: "Privacy Policy", href: "/privacy-policy" },
       { name: "Terms of Use", href: "/terms-of-service" },
       { name: "Responsible Disclosure Policy", href: "#" },
-      { name: "Sell on Zepto", href: "/brands" },
-      { name: "Deliver with Zepto", href: "/s/delivery-partners" },
-      { name: "Franchise with Zepto", href: "/growth-partner" }
+      { name: "Sell on Supr", href: "/brands" },
+      { name: "Deliver with Supr", href: "/s/delivery-partners" },
+      { name: "Franchise with Supr", href: "/growth-partner" },
+      { name: "Ride with Supr", href: "/ride-with-supr" }
     ]
   };
 
@@ -29,7 +31,7 @@ const Footer = () => {
           {/* Logo and Social Links */}
           <div className="lg:col-span-1">
             <div className="text-2xl font-bold text-purple-600 mb-6">
-              zepto
+              Supr
             </div>
             
             {/* Social Media Icons */}
@@ -64,7 +66,7 @@ const Footer = () => {
             </div>
 
             <p className="text-sm text-gray-500">
-              © Zepto Marketplace Private Limited
+              © Supr Marketplace Private Limited
             </p>
           </div>
 

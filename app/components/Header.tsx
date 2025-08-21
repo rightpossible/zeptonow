@@ -23,7 +23,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="text-2xl font-bold text-purple-600 hover:text-purple-700 transition-colors duration-200">
-              zepto
+              Supr
             </Link>
           </div>
 

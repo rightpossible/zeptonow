@@ -92,7 +92,7 @@ const AccountSidebar: React.FC = () => {
             <p className="text-white text-sm mb-4">
               <span className="text-white">You would potentially save </span>
               <span className="font-bold text-yellow-200">₹500</span>
-              <span className="text-white"> per month with Zepto Daily</span>
+              <span className="text-white"> per month with Supr Daily</span>
             </p>
           </div>
           <Image 

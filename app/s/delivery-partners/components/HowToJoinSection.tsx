@@ -33,7 +33,7 @@ const HowToJoinSection = () => {
               </div>
               <div className="flex flex-col">
                 <span className="text-base text-gray-900 font-semibold">Download the App</span>
-                <span className="text-gray-400 text-xs">Zepto Delivery Partner</span>
+                <span className="text-gray-400 text-xs">Supr Delivery Partner</span>
               </div>
             </div>
             {/* Arrow */}
