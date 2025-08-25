@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const CustomerSupportHeader = () => {
@@ -7,36 +8,36 @@ const CustomerSupportHeader = () => {
         <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="/" className="flex items-center" aria-label="home">
+            <Link href="/" className="flex items-center" aria-label="home">
               <span className="text-4xl font-bold text-white tracking-tight">
                 Supr
               </span>
-            </a>
+            </Link>
           </div>
 
           {/* Navigation Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a href="/" className="text-white hover:text-purple-400 px-3 py-2 text-2xl font-medium transition-colors">
+              <Link href="/" className="text-white hover:text-purple-400 px-3 py-2 text-2xl font-medium transition-colors">
                 Home
-              </a>
-                              <a href="/blog" className="text-white hover:text-purple-400 px-3 py-2 text-2xl font-medium transition-colors">
+              </Link>
+              <Link href="/blog" className="text-white hover:text-purple-400 px-3 py-2 text-2xl font-medium transition-colors">
                 Mojo<br />(our blog)
-              </a>
-              <a href="/del-areas" className="text-white hover:text-purple-400 px-3 py-2 text-2xl font-medium transition-colors">
+              </Link>
+              <Link href="/del-areas" className="text-white hover:text-purple-400 px-3 py-2 text-2xl font-medium transition-colors">
                 Delivery Areas
-              </a>
-              <a href="https://zepto.talentrecruit.com/career-page" className="text-white hover:text-purple-400 px-3 py-2 text-2xl font-medium transition-colors">
+              </Link>
+              <Link href="https://zepto.talentrecruit.com/career-page" className="text-white hover:text-purple-400 px-3 py-2 text-2xl font-medium transition-colors">
                 Careers
-              </a>
+              </Link>
               <div className="flex items-center">
                 <div className="bg-yellow-400 text-gray-800 text-lg font-semibold px-4 py-2 rounded-full">
-                  We're hiring!
+                  We&apos;re hiring!
                 </div>
               </div>
-              <a href="/press" className="text-white hover:text-purple-400 px-3 py-2 text-2xl font-medium transition-colors">
+              <Link href="/press" className="text-white hover:text-purple-400 px-3 py-2 text-2xl font-medium transition-colors">
                 Press
-              </a>
+              </Link>
               <a href="/customer-support" className="text-purple-300 px-3 py-2 text-2xl font-medium border-b-2 border-purple-300" aria-current="page">
                 Customer Support
               </a>
@@ -62,24 +63,24 @@ const CustomerSupportHeader = () => {
         {/* Mobile menu */}
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="/" className="text-white hover:text-purple-400 block px-3 py-2 text-xl font-medium">
+              <Link href="/" className="text-white hover:text-purple-400 block px-3 py-2 text-xl font-medium">
               Home
-            </a>
-            <a href="/blog" className="text-white hover:text-purple-400 block px-3 py-2 text-xl font-medium">
+            </Link>
+            <Link href="/blog" className="text-white hover:text-purple-400 block px-3 py-2 text-xl font-medium">
               Mojo (our blog)
-            </a>
-            <a href="/del-areas" className="text-white hover:text-purple-400 block px-3 py-2 text-xl font-medium">
+            </Link>
+            <Link href="/del-areas" className="text-white hover:text-purple-400 block px-3 py-2 text-xl font-medium">
               Delivery Areas
-            </a>
-            <a href="https://zepto.talentrecruit.com/career-page" className="text-white hover:text-purple-400 block px-3 py-2 text-xl font-medium">
+            </Link>
+            <Link href="https://zepto.talentrecruit.com/career-page" className="text-white hover:text-purple-400 block px-3 py-2 text-xl font-medium">
               Careers
-            </a>
-            <a href="/press" className="text-white hover:text-purple-400 block px-3 py-2 text-xl font-medium">
+            </Link>
+            <Link href="/press" className="text-white hover:text-purple-400 block px-3 py-2 text-xl font-medium">
               Press
-            </a>
-            <a href="/customer-support" className="text-purple-300 block px-3 py-2 text-xl font-medium" aria-current="page">
+            </Link>
+            <Link href="/customer-support" className="text-purple-300 block px-3 py-2 text-xl font-medium" aria-current="page">
               Customer Support
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

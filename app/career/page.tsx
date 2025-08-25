@@ -10,7 +10,7 @@ export default function Career() {
           <div className="max-w-3xl">
             {/* Company Story */}
             <h1 className="text-2xl lg:text-3xl font-bold text-purple-600 mb-8">
-              At Supr, we don't just break barriers—we rewrite the rules.
+              At Supr, we don&apos;t just break barriers—we rewrite the rules.
             </h1>
             
             <div className="space-y-4 text-lg text-gray-700 mb-8">
@@ -18,13 +18,13 @@ export default function Career() {
                 <span className="text-purple-600 font-semibold">Year 1:</span> They said nobody wanted 10-minute delivery. We made it a habit.
               </p>
               <p>
-                <span className="text-purple-600 font-semibold">Year 2:</span> They said our business model wouldn't survive. We thrived through the toughest funding winter since 2008.
+                <span className="text-purple-600 font-semibold">Year 2:</span> They said our business model wouldn&apos;t survive. We thrived through the toughest funding winter since 2008.
               </p>
               <p>
-                <span className="text-purple-600 font-semibold">Year 3:</span> They said we couldn't take on giants. We grew faster, turned unicorn, and took the lead.
+                <span className="text-purple-600 font-semibold">Year 3:</span> They said we couldn&apos;t take on giants. We grew faster, turned unicorn, and took the lead.
               </p>
               <p>
-                <span className="text-purple-600 font-semibold">Year 4:</span> They said India wasn't ready for a 100% domestic fundraise. We proved them wrong—while hitting $3 billion in annualised GOV.
+                <span className="text-purple-600 font-semibold">Year 4:</span> They said India wasn&apos;t ready for a 100% domestic fundraise. We proved them wrong—while hitting $3 billion in annualised GOV.
               </p>
             </div>
 
@@ -33,7 +33,7 @@ export default function Career() {
             </h2>
 
             <h3 className="text-xl lg:text-2xl font-bold text-purple-600">
-              And now, it's your turn.
+              And now, it&apos;s your turn.
             </h3>
           </div>
         </div>

@@ -1,6 +1,0 @@
----
-description:
-globs:
-alwaysApply: false
----
-use Supr not Zepto, we are cloning zepto but for Supr, so in ui text always use Supr, but for images and link that comes from zepto, keep using it

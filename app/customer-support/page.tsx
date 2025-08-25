@@ -7,7 +7,7 @@ export default function CustomerSupport() {
       <div className="flex flex-col items-center justify-center px-4 py-20 text-center min-h-screen">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight">
-            We're here to help you 24x7<br />
+                               We&apos;re here to help you 24x7<br />
             on Supr App
           </h1>
           

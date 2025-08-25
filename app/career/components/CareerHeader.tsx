@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const CareerHeader = () => {
   return (
@@ -7,13 +8,13 @@ const CareerHeader = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="/" className="flex items-center">
+            <Link href="/" className="flex items-center">
               <div className="bg-purple-600 px-4 py-2 rounded">
                 <span className="text-2xl font-bold text-white tracking-tight">
                   supr
                 </span>
               </div>
-            </a>
+            </Link>
           </div>
 
           {/* Navigation - can be empty or minimal for career page */}

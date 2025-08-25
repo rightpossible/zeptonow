@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const PressHeader = () => {
   return (
@@ -9,19 +10,19 @@ const PressHeader = () => {
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <a href="/" className="flex items-center">
+              <Link href="/" className="flex items-center">
                 <span className="text-3xl font-bold text-white tracking-tight">
                   supr
                 </span>
-              </a>
+              </Link>
             </div>
 
             {/* Navigation Menu */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
-                <a href="/" className="text-white hover:text-purple-300 px-3 py-2 text-lg font-medium transition-colors">
+                <Link href="/" className="text-white hover:text-purple-300 px-3 py-2 text-lg font-medium transition-colors">
                   Home
-                </a>
+                </Link>
                 <a href="/blog" className="text-white hover:text-purple-300 px-3 py-2 text-lg font-medium transition-colors">
                   Mojo<br />(our blog)
                 </a>
@@ -33,7 +34,7 @@ const PressHeader = () => {
                 </a>
                 <div className="flex items-center">
                   <div className="bg-yellow-400 text-gray-800 text-sm font-semibold px-3 py-2 rounded-full">
-                    We're hiring!
+                                            We&apos;re hiring!
                   </div>
                 </div>
                 <a href="/s/press" className="text-purple-300 px-3 py-2 text-lg font-medium border-b-2 border-purple-300" aria-current="page">
