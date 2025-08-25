@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function CustomerSupport() {
   return (
-    <div className="bg-gradient-to-b from-purple-900 to-purple-800">
+    <div className="bg-gradient-to-b from-green-900 to-green-800">
       {/* Main Content */}
       <div className="flex flex-col items-center justify-center px-4 py-20 text-center min-h-screen">
         <div className="max-w-4xl mx-auto">

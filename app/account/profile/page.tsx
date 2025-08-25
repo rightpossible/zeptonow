@@ -5,11 +5,11 @@ export default function ProfilePage() {
       <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-5">
         <div>
           <label className="block text-xs text-gray-600 mb-2">Name *</label>
-          <input className="w-full text-black h-11 border border-gray-200 rounded-md px-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent" defaultValue="Kashyap" />
+          <input className="w-full text-black h-11 border border-gray-200 rounded-md px-3 text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" defaultValue="Kashyap" />
         </div>
         <div>
           <label className="block text-xs text-gray-600 mb-2">Email Address *</label>
-          <input className="w-full h-11 border border-gray-200 rounded-md px-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent" placeholder="-" />
+          <input className="w-full h-11 border border-gray-200 rounded-md px-3 text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" placeholder="-" />
           <p className="text-[11px] text-gray-500 mt-2">We promise not to spam you</p>
         </div>
         <div className="pt-2">

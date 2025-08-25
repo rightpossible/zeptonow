@@ -9,7 +9,7 @@ const CareerHeader = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <div className="bg-purple-600 px-4 py-2 rounded">
+              <div className="bg-green-600 px-4 py-2 rounded">
                 <span className="text-2xl font-bold text-white tracking-tight">
                   supr
                 </span>
@@ -28,7 +28,7 @@ const CareerHeader = () => {
           <div className="md:hidden">
             <button
               type="button"
-              className="bg-white inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500"
+              className="bg-white inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >

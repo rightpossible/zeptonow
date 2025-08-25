@@ -3,7 +3,7 @@ import React from 'react';
 
 const DelAreasHeader = () => {
   return (
-    <div className="bg-gradient-to-b from-purple-900 to-purple-800">
+    <div className="bg-gradient-to-b from-green-900 to-green-800">
       {/* Navigation Header */}
       <header className="bg-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -20,16 +20,16 @@ const DelAreasHeader = () => {
             {/* Navigation Menu */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
-                <Link href="/" className="text-white hover:text-purple-300 px-3 py-2 text-lg font-medium transition-colors">
+                <Link href="/" className="text-white hover:text-green-300 px-3 py-2 text-lg font-medium transition-colors">
                   Home
                 </Link>
-                <Link href="/blog" className="text-white hover:text-purple-300 px-3 py-2 text-lg font-medium transition-colors">
+                <Link href="/blog" className="text-white hover:text-green-300 px-3 py-2 text-lg font-medium transition-colors">
                   Mojo<br />(our blog)
                 </Link>
-                <Link href="/s/del-areas" className="text-purple-300 px-3 py-2 text-lg font-medium border-b-2 border-purple-300" aria-current="page">
+                <Link href="/s/del-areas" className="text-green-300 px-3 py-2 text-lg font-medium border-b-2 border-green-300" aria-current="page">
                   Delivery Areas
                 </Link>
-                <Link href="/career" className="text-white hover:text-purple-300 px-3 py-2 text-lg font-medium transition-colors">
+                <Link href="/career" className="text-white hover:text-green-300 px-3 py-2 text-lg font-medium transition-colors">
                   Careers
                 </Link>
                 <div className="flex items-center">
@@ -37,10 +37,10 @@ const DelAreasHeader = () => {
                                          We&apos;re hiring!
                   </div>
                 </div>
-                <Link href="/press" className="text-white hover:text-purple-300 px-3 py-2 text-lg font-medium transition-colors">
+                <Link href="/press" className="text-white hover:text-green-300 px-3 py-2 text-lg font-medium transition-colors">
                   Press
                 </Link>
-                <Link href="/customer-support" className="text-white hover:text-purple-300 px-3 py-2 text-lg font-medium transition-colors">
+                <Link href="/customer-support" className="text-white hover:text-green-300 px-3 py-2 text-lg font-medium transition-colors">
                   Customer Support
                 </Link>
               </div>
@@ -50,7 +50,7 @@ const DelAreasHeader = () => {
             <div className="md:hidden">
               <button
                 type="button"
-                className="bg-purple-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500"
+                className="bg-green-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >

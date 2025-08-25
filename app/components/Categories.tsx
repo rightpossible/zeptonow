@@ -62,7 +62,7 @@ const Categories = () => {
                     <React.Fragment key={item}>
                       <a
                         href="#"
-                        className="text-xs text-gray-600 hover:text-purple-600 transition-colors duration-200"
+                        className="text-xs text-gray-600 hover:text-green-600 transition-colors duration-200"
                       >
                         {item}
                       </a>
@@ -89,7 +89,7 @@ const Categories = () => {
               <a
                 key={index}
                 href="#"
-                className="block p-2 text-xs font-bold text-black hover:text-purple-600 transition-colors duration-200"
+                className="block p-2 text-xs font-bold text-black hover:text-green-600 transition-colors duration-200"
               >
                 {category}
               </a>

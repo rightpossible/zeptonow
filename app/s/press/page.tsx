@@ -50,11 +50,11 @@ export default function Press() {
   ];
 
   return (
-    <div className="bg-gradient-to-b from-purple-800 to-purple-900 min-h-screen">
+    <div className="bg-gradient-to-b from-green-800 to-green-900 min-h-screen">
       {/* Contact Information */}
       <div className="max-w-4xl mx-auto px-4 py-12 text-center">
         <p className="text-xl text-white mb-16">
-          For press inquiries, please contact <a href="mailto:pr@supr.com" className="text-purple-300 hover:text-purple-200 underline">pr@supr.com</a>.
+          For press inquiries, please contact <a href="mailto:pr@supr.com" className="text-green-300 hover:text-green-200 underline">pr@supr.com</a>.
         </p>
       </div>
 
@@ -91,7 +91,7 @@ export default function Press() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition-colors">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-green-600 transition-colors">
                   {article.title}
                 </h3>
 
@@ -101,7 +101,7 @@ export default function Press() {
                 </p>
 
                 {/* Read More */}
-                <div className="text-purple-600 font-semibold text-sm group-hover:text-purple-800 transition-colors">
+                <div className="text-green-600 font-semibold text-sm group-hover:text-green-800 transition-colors">
                   READ MORE
                 </div>
               </div>

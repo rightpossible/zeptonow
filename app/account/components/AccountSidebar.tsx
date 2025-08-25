@@ -67,7 +67,7 @@ const AccountSidebar: React.FC = () => {
     <aside className="w-full lg:w-2/5 border-r border-gray-200 lg:border-r border-b border-gray-200 lg:border-b-0 p-4 lg:p-6">
       {/* User Profile */}
       <div className="flex items-center mb-6">
-        <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mr-3">
+        <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mr-3">
           <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
             <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
           </svg>
@@ -160,8 +160,8 @@ const AccountSidebar: React.FC = () => {
 
       {/* Free Cash */}
       <div className="relative mt-6 rounded-xl p-[2px]">
-        <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#DE9EFF] to-[#BFA8FF]"></div>
-        <div className="relative flex items-center justify-between rounded-lg bg-[#F6E5FF] p-4">
+        <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#86EFAC] to-[#A7F3D0]"></div>
+        <div className="relative flex items-center justify-between rounded-lg bg-[#F0FDF4] p-4">
           <div className="flex items-center justify-center">
             <Image 
               alt="gift" 
@@ -170,7 +170,7 @@ const AccountSidebar: React.FC = () => {
               height={16} 
               className="mr-2"
             />
-            <span className="text-cta2 font-bold" style={{color: 'rgb(149, 14, 219)'}}>
+            <span className="text-cta2 font-bold" style={{color: 'rgb(21, 128, 61)'}}>
               Free Cash 
             </span>
             <Image 
@@ -181,7 +181,7 @@ const AccountSidebar: React.FC = () => {
               className="ml-1"
             />
           </div>
-          <span className="text-cta1 font-bold" style={{color: 'rgb(149, 14, 219)'}}>
+          <span className="text-cta1 font-bold" style={{color: 'rgb(21, 128, 61)'}}>
             ₹125
           </span>
         </div>

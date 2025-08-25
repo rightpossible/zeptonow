@@ -69,7 +69,7 @@ export default function Blog() {
       {/* Hero Section with Publication Info */}
       <div className="relative">
         {/* Background Image */}
-        <div className="h-80 bg-gradient-to-r from-purple-600 to-purple-800 relative overflow-hidden">
+        <div className="h-80 bg-gradient-to-r from-green-600 to-green-800 relative overflow-hidden">
           <img 
             src="https://miro.medium.com/v2/resize:fit:2400/1*rPlcGtT6Qu7i-HB4vxzeeA.png"
             alt="Supr TechXPress Background"
@@ -84,7 +84,7 @@ export default function Blog() {
               {/* Publication Avatar */}
               <div className="relative">
                 <div className="w-20 h-20 bg-white rounded-full p-1">
-                  <div className="w-full h-full bg-purple-600 rounded-full flex items-center justify-center">
+                  <div className="w-full h-full bg-green-600 rounded-full flex items-center justify-center">
                     <span className="text-white font-bold text-xl">S</span>
                   </div>
                 </div>

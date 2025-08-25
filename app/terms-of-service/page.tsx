@@ -149,7 +149,7 @@ export default function TermsOfService() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">14. Contact Information</h2>
             <p className="mb-6">
               If you have any questions about these Terms, please contact us at{' '}
-              <a href="mailto:legal@zeptonow.com" className="text-purple-600 hover:text-purple-800">
+              <a href="mailto:legal@zeptonow.com" className="text-green-600 hover:text-green-800">
                 legal@zeptonow.com
               </a>{' '}
               or write to us at:

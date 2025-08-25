@@ -39,7 +39,7 @@ const LocationModal: React.FC<LocationModalProps> = ({ isOpen, onClose }) => {
         <div className="p-4 overflow-y-auto max-h-[calc(90vh-60px)]">
           {/* Search Input */}
           <div className="mb-6">
-            <div className="w-full relative text-base flex items-center border rounded-md border-purple-600 bg-purple-50 border-opacity-15">
+            <div className="w-full relative text-base flex items-center border rounded-md border-green-600 bg-green-50 border-opacity-15">
               <span className="left-0 pl-3.5">
                 <svg fill="none" height="0.9rem" viewBox="0 0 15 15" width="0.9rem" xmlns="http://www.w3.org/2000/svg">
                   <path clipRule="evenodd" d="M2 6.5C2 4.01472 4.01472 2 6.5 2C8.98528 2 11 4.01472 11 6.5C11 8.98528 8.98528 11 6.5 11C4.01472 11 2 8.98528 2 6.5ZM6.5 1C3.46243 1 1 3.46243 1 6.5C1 9.53757 3.46243 12 6.5 12C9.53757 12 12 9.53757 12 6.5C12 3.46243 9.53757 1 6.5 1ZM11.2669 10.4068C11.0773 10.206 10.7609 10.1969 10.5601 10.3864C10.3593 10.576 10.3502 10.8924 10.5397 11.0932L13.1368 13.8442C13.3264 14.045 13.6428 14.0541 13.8436 13.8646C14.0444 13.675 14.0535 13.3585 13.864 13.1577L11.2669 10.4068Z" fill="#858585" fillRule="evenodd"/>

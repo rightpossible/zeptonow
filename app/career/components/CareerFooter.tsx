@@ -7,7 +7,7 @@ const CareerFooter = () => {
         {/* Simple footer for career page */}
         <div className="text-center">
           <div className="mb-4">
-            <div className="bg-purple-600 px-4 py-2 rounded inline-block">
+            <div className="bg-green-600 px-4 py-2 rounded inline-block">
               <span className="text-2xl font-bold text-white tracking-tight">
                 supr
               </span>

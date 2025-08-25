@@ -55,12 +55,12 @@ export default function DelAreas() {
   ];
 
   return (
-    <div className="bg-gradient-to-b from-purple-800 to-purple-900 min-h-screen">
+    <div className="bg-gradient-to-b from-green-800 to-green-900 min-h-screen">
       {/* Cities Grid */}
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {cities.map((city, index) => (
-            <div key={index} className="bg-purple-800 p-8 rounded-lg border border-purple-600 hover:shadow-lg transition-shadow">
+            <div key={index} className="bg-green-800 p-8 rounded-lg border border-green-600 hover:shadow-lg transition-shadow">
               {/* City Header */}
               <div className="flex items-center mb-6">
                 <img 

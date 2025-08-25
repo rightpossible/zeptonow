@@ -3,7 +3,7 @@ export default function ReferralsPage() {
     <div className="space-y-4">
       {/* Promo banner */}
       <div className="rounded-lg overflow-hidden">
-        <div className="bg-gradient-to-r from-purple-700 to-purple-500 text-white px-5 py-4 rounded-t-lg text-sm font-semibold">
+        <div className="bg-gradient-to-r from-green-700 to-green-500 text-white px-5 py-4 rounded-t-lg text-sm font-semibold">
           25% off for you, Pass for them @ ₹1!
         </div>
         {/* How it works card */}

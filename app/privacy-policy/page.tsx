@@ -143,7 +143,7 @@ export default function PrivacyPolicy() {
               We have appointed a grievance officer for the purpose of redressing any grievances or complaints You 
               may have regarding the handling of Your Personal Information. You can contact the designated Grievance 
               Officer, Panduranga Acharya, General Counsel, at{' '}
-              <a href="mailto:legal@zeptonow.com" className="text-purple-600 hover:text-purple-800">
+              <a href="mailto:legal@zeptonow.com" className="text-green-600 hover:text-green-800">
                 legal@zeptonow.com
               </a>.
             </p>
@@ -151,7 +151,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">10. Questions?</h2>
             <p className="mb-6">
               Please feel free to contact us at{' '}
-              <a href="mailto:legal@zeptonow.com" className="text-purple-600 hover:text-purple-800">
+              <a href="mailto:legal@zeptonow.com" className="text-green-600 hover:text-green-800">
                 legal@zeptonow.com
               </a>{' '}
               regarding any questions on the Privacy Notice. We will use reasonable efforts to respond promptly to 

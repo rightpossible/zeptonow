@@ -29,7 +29,7 @@ const DeliveryPartnerForm = () => {
       <input 
         placeholder="Name" 
         autoComplete="name" 
-        className="w-full px-3.5 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-700" 
+        className="w-full px-3.5 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-700" 
         type="text" 
         name="name"
         value={formData.name}
@@ -41,7 +41,7 @@ const DeliveryPartnerForm = () => {
         <input 
           autoComplete="tel" 
           placeholder="Phone" 
-          className="w-full px-3.5 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-700" 
+          className="w-full px-3.5 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-700" 
           type="tel" 
           name="phone"
           value={formData.phone}
@@ -53,7 +53,7 @@ const DeliveryPartnerForm = () => {
       <div className="relative w-full">
         <button 
           type="button" 
-          className="flex items-center w-full px-3.5 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-700"
+          className="flex items-center w-full px-3.5 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-700"
         >
           <span className="text-gray-500 flex-1 text-left">
             {formData.city || 'City'}
@@ -75,7 +75,7 @@ const DeliveryPartnerForm = () => {
       {/* Privacy Policy */}
       <p className="text-[0.65rem] text-gray-500">
         By submitting this form I agree to the{' '}
-        <a href="https://www.zeptonow.com/app-privacy-policy" className="text-purple-700">
+        <a href="https://www.zeptonow.com/app-privacy-policy" className="text-green-700">
           Privacy Policy
         </a>{' '}
         of Zepto.
