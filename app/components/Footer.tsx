@@ -4,13 +4,13 @@ const Footer = () => {
   const footerLinks = {
     company: [
       { name: "Home", href: "/" },
-      { name: "Delivery Areas", href: "#" },
+      { name: "Delivery Areas", href: "/s/del-areas" },
       { name: "Delivery Partners", href: "/s/delivery-partners" },
      
-      { name: "Careers", href: "#" },
-      { name: "Customer Support", href: "#" },
-      { name: "Press", href: "#" },
-      { name: "Mojo - a Supr Blog", href: "#" }
+      { name: "Careers", href: "/career" },
+      { name: "Customer Support", href: "/customer-support" },
+      { name: "Press", href: "/s/press" },
+      { name: "Mojo - a Supr Blog", href: "/blog" }
     ],
     legal: [
       { name: "Privacy Policy", href: "/privacy-policy" },
